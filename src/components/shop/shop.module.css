@@ -1,0 +1,78 @@
+/* yourStyles.module.css */
+
+.productList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* height: 300px; */
+    width: 250px;
+    /* Adjust as necessary */
+}
+
+.cardImg{
+    height: 150px;
+}
+
+.cardImg img {
+    width: 100%;
+
+    height: 100%;
+    object-fit: contain;
+    /* Ensures the image covers the container without stretching */
+}
+
+.cardInfo {
+    margin-top: 16px;
+    flex-grow: 1;
+    /* Allows this section to grow and fill available space */
+}
+
+.textTitle {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.textBody {
+    font-size: 14px;
+    color: #555;
+    white-space: nowrap;
+    /* Prevents the text from wrapping to the next line */
+    overflow: hidden;
+    /* Ensures that the overflowed content is not visible */
+    text-overflow: ellipsis;
+    /* Adds the ellipsis (...) at the end of the truncated text */
+}
+
+.cardFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.cardButton {
+    /* background-color: #000;
+    color: #fff;
+    padding: 8px; */
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.cardButton .svgIcon {
+    width: 35px;
+    /* height: 20px; */
+}
+
+.cardButton .svgIcon:hover{
+    transform: scale(1.1);
+}

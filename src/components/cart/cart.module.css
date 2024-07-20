@@ -1,0 +1,58 @@
+.table {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items:baseline;
+    gap: 1rem;
+    width: 250px;
+
+}
+
+.itemInfo {
+    display: flex;
+   gap: 1rem;
+}
+
+.remove{
+    border: none;
+    background: none;
+    border-bottom: 1px solid silver;
+}
+
+.remove:hover{
+    color: red;
+
+}
+
+table {
+    width: 900px;
+    border-collapse: collapse;
+    margin-top: 20px;
+    /* text-align: center; */
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+td img {
+    display: block;
+    width: 100px;
+}
+
+input[type="number"] {
+    width: 50px;
+}
+
